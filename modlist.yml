@@ -23,7 +23,6 @@
 - category: Libraries
   row: 2
   addons:
-    - 283644
     - 250363
     - 419699
     - 404465
@@ -31,28 +30,27 @@
     - 531761
     - 495476
 
-- category: Tools
-  row: 1
-  addons:
-    - 245211
-    - 344787
-
 - category: REI + FTB
   row: 2
   addons:
     - 404468
     - 314906
     - 310111
-    - 288885
     - 238747
     - 325625
     - 521393
     - 634571
 
-- category: Vanilla Plus
+- category: Misc.
   row: 1
   addons:
     - 243121
     - 301051
-    - 280510
     - 231275
+    - 245211
+
+- category: Fix Modpack
+  row: 2
+  addons:
+    - 239197
+    - 280510
