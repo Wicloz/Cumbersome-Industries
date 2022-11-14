@@ -1,0 +1,58 @@
+- category: Industrial
+  row: 1
+  addons:
+    - 328085
+    - 439890
+    - 231951
+
+- category: Building Stuff
+  row: 1
+  addons:
+    - 359540
+    - 351725
+    - 502372
+    - 438116
+    - 378646
+    - 352039
+    - 629153
+    - 453925
+    - 400933
+    - 231484
+    - 539057
+
+- category: Libraries
+  row: 2
+  addons:
+    - 283644
+    - 250363
+    - 419699
+    - 404465
+    - 348521
+    - 531761
+    - 495476
+
+- category: Tools
+  row: 1
+  addons:
+    - 245211
+    - 344787
+
+- category: REI + FTB
+  row: 2
+  addons:
+    - 404468
+    - 314906
+    - 310111
+    - 288885
+    - 238747
+    - 325625
+    - 521393
+    - 634571
+
+- category: Vanilla Plus
+  row: 1
+  addons:
+    - 243121
+    - 301051
+    - 280510
+    - 231275

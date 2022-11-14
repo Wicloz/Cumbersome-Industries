@@ -1,0 +1,12 @@
+.idea/
+.curseclient
+minecraftinstance.json
+
+logs/
+mods/
+saves/
+options.txt
+realms_persistence.json
+usercache.json
+usernamecache.json
+resourcepacks/
