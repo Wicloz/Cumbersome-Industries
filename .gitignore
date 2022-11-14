@@ -1,6 +1,7 @@
 .idea/
 .curseclient
 minecraftinstance.json
+export.yml
 
 logs/
 mods/
