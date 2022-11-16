@@ -4,7 +4,6 @@ minecraftinstance.json
 export.yml
 
 logs/
-mods/
 saves/
 options.txt
 realms_persistence.json
@@ -14,3 +13,6 @@ resourcepacks/
 local/
 
 config/roughlyenoughitems/
+
+mods/*.jar
+!mods/StorageDrawers-1.19-11.1.2.jar
