@@ -10,7 +10,7 @@ realms_persistence.json
 usercache.json
 usernamecache.json
 resourcepacks/
-local/
 .mixin.out/
 
 config/roughlyenoughitems/
+local/ftbchunks/data/
