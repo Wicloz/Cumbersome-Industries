@@ -14,7 +14,7 @@
 	
 	# Enables creation of death waypoints
 	# Default: true
-	death_waypoints: true
+	death_waypoints: false
 	
 	# Enables debug info
 	# Default: false
@@ -51,7 +51,7 @@
 	
 	# Only show entities that are on the surface
 	# Default: true
-	only_surface_entities: true
+	only_surface_entities: false
 	
 	# Show your own claimed chunks on the map
 	# Default: true
@@ -116,7 +116,7 @@
 		
 		# Enable minimap
 		# Default: true
-		enabled: true
+		enabled: false
 		
 		# Show entities on minimap
 		# Default: true
