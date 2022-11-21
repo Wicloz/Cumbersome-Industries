@@ -384,7 +384,7 @@
 
 	[tools.ancient_tomes]
 		#Format is lootTable,weight. i.e. "minecraft:chests/stronghold_library,30"
-		"Loot Tables" = ["minecraft:chests/stronghold_library,30", "minecraft:chests/simple_dungeon,20", "minecraft:chests/bastion_treasure,25", "minecraft:chests/woodland_mansion,15", "minecraft:chests/nether_bridge,0", "minecraft:chests/underwater_ruin_big,0", "minecraft:chests/underwater_ruin_small,0", "quark:misc/monster_box,5"]
+		"Loot Tables" = ["minecraft:chests/stronghold_library,30", "minecraft:chests/simple_dungeon,20", "minecraft:chests/bastion_treasure,25", "minecraft:chests/woodland_mansion,15", "minecraft:chests/nether_bridge,0", "minecraft:chests/underwater_ruin_big,0", "minecraft:chests/underwater_ruin_small,0", "minecraft:chests/ancient_city,4", "quark:misc/monster_box,5"]
 		"Item Quality" = 2
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
@@ -405,6 +405,7 @@
 			B = 0.0
 
 [tweaks]
+	"Zombie Villagers On Normal" = true
 	"Villagers Follow Emeralds" = true
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
@@ -412,7 +413,9 @@
 	"Simple Harvest" = true
 	"Sign Editing" = true
 	"Shulker Packing" = true
+	"Safe Rabbits" = true
 	"Replace Scaffolding" = true
+	"Renewable Spore Blossoms" = true
 	"Reacharound Placing" = true
 	"Poison Potato Usage" = true
 	"Pig Litters" = true
@@ -433,9 +436,6 @@
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true
-	"Zombie Villagers On Normal" = true
-	"Safe Rabbits" = true
-	"Renewable Spore Blossoms" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -482,9 +482,16 @@
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
 
+	[tweaks.safe_rabbits]
+		#How many blocks should be subtracted from the rabbit fall height when calculating fall damage. 5 is the same value as vanilla frogs
+		"Height Reduction" = 5.0
+
 	[tweaks.replace_scaffolding]
 		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
 		"Max Bounces" = 1
+
+	[tweaks.renewable_spore_blossoms]
+		"Bone Meal Chance" = 0.2
 
 	[tweaks.reacharound_placing]
 		#Allowed values: [0,1]
@@ -573,13 +580,6 @@
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
-
-	[tweaks.safe_rabbits]
-		#How many blocks should be subtracted from the rabbit fall height when calculating fall damage. 5 is the same value as vanilla frogs
-		"Height Reduction" = 5.0
-
-	[tweaks.renewable_spore_blossoms]
-		"Bone Meal Chance" = 0.2
 
 [world]
 	"Spiral Spires" = true
@@ -1145,7 +1145,7 @@
 			"Max Cost" = 0.7
 			"Spawn Cost" = 0.15
 			#Allowed values: (0,)
-			"Spawn Weight" = 8
+			"Spawn Weight" = 5
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1367,7 +1367,7 @@
 		"Fuel Time Divisor" = 200
 		#The value of each shank of food. Tweak this when using mods like Hardcore Hunger which change that value.
 		"Food Divisor" = 2
-		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "quark:pickarang"]
+		"Enchanting Stacks" = ["minecraft:diamond_sword", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:shears", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "minecraft:trident", "minecraft:elytra", "minecraft:shield", "quark:pickarang"]
 		#A list of additional stacks to display on each enchantment
 		#The format is as follows:
 		#enchant_id=item1,item2,item3...
