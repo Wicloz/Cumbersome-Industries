@@ -1460,7 +1460,7 @@
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = true
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
-		"Allow Anyone To Collect" = false
+		"Allow Anyone To Collect" = true
 		"Enable Soul Compass" = true
 
 	[oddities.tiny_potato]
