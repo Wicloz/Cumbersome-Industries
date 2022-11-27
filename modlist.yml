@@ -56,6 +56,7 @@
     - 231275
     - 245211
     - 656551
+    - 60089
 
 - category: Make Stuff Work
   row: 2
@@ -63,3 +64,9 @@
     - 239197
     - 628539
     - 563928
+
+- category: Performance
+  row: 2
+  addons:
+    - 574856
+    - 581495
