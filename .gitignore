@@ -11,6 +11,9 @@ usercache.json
 usernamecache.json
 resourcepacks/
 .mixin.out/
+shaderpacks/
+hs_err_pid*.log
+servers.dat
 
 config/roughlyenoughitems/
 local/ftbchunks/data/
