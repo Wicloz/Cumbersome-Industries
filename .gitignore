@@ -15,6 +15,7 @@ shaderpacks/
 hs_err_pid*.log
 servers.dat
 defaultconfigs/
+crash-reports/
 
 config/roughlyenoughitems/
 local/ftbchunks/data/
