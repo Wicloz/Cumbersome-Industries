@@ -1,6 +1,12 @@
 
 [types]
 
+	[types.wood_type]
+
+		[types.wood_type.quark]
+			azalea = true
+			blossom = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.quark]
@@ -11,19 +17,7 @@
 			yellow_blossom = true
 			red_blossom = true
 
-	[types.wood_type]
-
-		[types.wood_type.quark]
-			azalea = true
-			blossom = true
-
 [entries]
-
-	[entries.leaves_type]
-
-		[entries.leaves_type.quark]
-			hedge = true
-			leaf_carpet = true
 
 	[entries.wood_type]
 
@@ -105,4 +99,10 @@
 
 		[entries.wood_type.mcwpaths]
 			planks_path = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
 
